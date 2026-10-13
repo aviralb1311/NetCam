@@ -1,0 +1,9 @@
+# Verified working on Fedora Linux (Python 3.14, CPU inference)
+# CPU-only fresh install (avoids downloading CUDA wheels):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch==2.12.0
+torchvision==0.27.0
+ultralytics==8.4.175
+opencv-python==4.13.0
+easyocr==1.7.2
+numpy==2.4.6
